@@ -1,0 +1,294 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.header {
+  height: 218px;
+  width: 100%;
+}
+.header .login {
+  width: 100%;
+  height: 40px;
+  color: #ffffff;
+  background-color: #333333;
+  text-align: center;
+}
+.header .login ul {
+  margin-left: 136px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+.header .login ul li {
+  float: left;
+  margin-top: 5px;
+}
+.header .login ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.header .login ul .img1 {
+  margin-top: 5px;
+  width: 10px;
+  height: 15px;
+}
+.header .login ul .img1 img {
+  width: 100%;
+  height: 100%;
+  vertical-align: bottom;
+  margin-right: 5px;
+}
+.header .login ul .log1 {
+  margin-left: 10px;
+}
+.header .login ul .log1,
+.header .login ul .log2 {
+  border-right: 1px solid #999999;
+  padding-right: 8px;
+  margin-right: 8px;
+}
+.header .login ul .log2 {
+  float: left;
+  text-align: center;
+  margin-top: 5px;
+  padding-left: 0;
+  margin-left: 1100px;
+}
+.header .login ul .no {
+  border-right: none;
+  margin-left: 0;
+}
+.header .login ul .right {
+  position: relative;
+  right: -1213px;
+}
+.header .headerNav {
+  width: 100%;
+  height: 56px;
+  background: #fafafa;
+}
+.header .headerNav ul {
+  margin-left: 230px;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  color: #999999;
+}
+.header .headerNav ul li {
+  float: left;
+  text-align: center;
+  vertical-align: bottom;
+  height: 56px;
+  line-height: 56px;
+  margin-left: 44px;
+  font-size: 19px;
+}
+.header .headerNav ul li a,
+.header .headerNav ul li span {
+  display: block;
+  float: left;
+  text-decoration: none;
+  line-height: 56px;
+  padding: 0 3px;
+  color: #999999;
+}
+.header .headerNav ul li h1 {
+  background-image: url("images/2.png");
+  background-repeat: no-repeat;
+  color: #fff;
+  width: 97px;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  text-indent: -999px;
+  vertical-align: bottom;
+  margin-top: 10px;
+  margin-left: -44px;
+}
+.header .headerNav ul li.first {
+  width: 230px;
+  height: 100%;
+  margin: 0 1px;
+}
+.header .headerNav ul li.first .first_a {
+  font-size: 12px;
+  color: #999999;
+}
+.header .headerNav .navfisrt {
+  border-bottom: 1px solid #00b38a;
+}
+.header .headerNav .navfisrt a {
+  color: #333333;
+}
+.header .headerSearch {
+  background: #f2f5f4;
+}
+.header .headerSearch .headerSearch-s {
+  padding-top: 30px;
+  padding-bottom: 28px;
+}
+.header .headerSearch .headerSearch-s .headerSearch-x {
+  height: 100px;
+  margin-bottom: -15px;
+  background: #f2f5f4;
+  overflow: hidden;
+}
+.header .headerSearch .headerSearch-s .headerSearch-x .input,
+.header .headerSearch .headerSearch-s .headerSearch-x a {
+  height: 20px;
+  padding: 12px 0;
+  margin-left: 484px;
+  width: 795px;
+  float: left;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+.header .headerSearch .headerSearch-s .headerSearch-x .input {
+  border: 1px solid #f2f5f4;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 18px;
+}
+.header .headerSearch .headerSearch-s .headerSearch-x .input:hover {
+  border: 1px solid #00b38a;
+}
+.header .headerSearch .headerSearch-s .headerSearch-x a {
+  text-align: center;
+  width: 142px;
+  height: 46px;
+  display: inline-block;
+  float: left;
+  margin-left: 0;
+  padding: 0;
+  text-decoration: none;
+  background-color: #00b38a;
+  line-height: 46px;
+  font-size: 18px;
+  color: #fff;
+}
+.header .headerSearch .headerSearch-s ul {
+  margin-left: 484px;
+  background: #f2f5f4;
+  margin-top: -25px;
+  position: relative;
+  top: -20px;
+  left: 0;
+}
+.header .headerSearch .headerSearch-s ul li {
+  float: left;
+  text-align: center;
+  margin-right: 22px;
+  font-size: 14px;
+  margin-top: 8px;
+  color: #00b38a;
+}
+.header .headerSearch .headerSearch-s ul li a {
+  text-decoration: none;
+  color: #00b38a;
+}
+.header .headerSearch .headerSearch-s ul li a:hover {
+  text-decoration: underline;
+}
+.header .headerSearch .headerSearch-s ul .hot {
+  color: #999999;
+}
+.min {
+  width: 1200px;
+  margin: auto;
+}
+.min .banner {
+  width: 1200px;
+  background: black;
+  height: 346px;
+}
+.min .banner .minLeft {
+  width: 321px;
+  height: 385px;
+  float: left;
+  background: cornflowerblue;
+}
+.min .banner .minRight {
+  width: 840px;
+  height: 346px;
+  background: red;
+  float: left;
+}
+.min .hotNew {
+  width: 1200px;
+  height: 53px;
+  background: coral;
+}
+.min .minTop {
+  width: 1200px;
+  height: 648px;
+  background: chocolate ;
+}
+.min .company {
+  width: 1200px;
+  background: darkseagreen;
+  height: 53px;
+}
+.min .minBottom {
+  width: 1200px;
+  height: 572px;
+  background: deeppink;
+}
+.min .frined {
+  width: 1200px;
+  height: 198px;
+  background: beige;
+}
+.footer {
+  width: 100%;
+  height: 354px;
+  background: lawngreen;
+}
+.movbox {
+  position: fixed;
+  bottom: 50px;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #09c084;
+  font-size: 19px;
+  color: #fff;
+}
+.movbox ul {
+  margin-left: 530px;
+}
+.movbox ul li {
+  float: left;
+  margin-right: 145px;
+  text-align: center;
+  line-height: 60px;
+}
+.movbox ul li p {
+  display: inline;
+  border-right: 1px solid #fff;
+  padding-right: 28px;
+}
+.movbox ul li span {
+  margin-left: 28px;
+}
+.movbox ul li .login,
+.movbox ul li .logup {
+  width: 91px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  background-color: #09c084;
+  display: inline;
+  padding-left: 25px;
+}
+.movbox ul li .logup {
+  padding-right: 25px;
+  background-color: #fff;
+  color: #09c084;
+}
+.movbox ul li .img {
+  float: left;
+  position: relative;
+  bottom: 86px;
+  left: -200px;
+}

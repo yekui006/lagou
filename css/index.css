@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+.header {
+  height: 218px;
+  width: 100%;
+  background: aqua;
+}
+.header .login {
+  width: 100%;
+  height: 38px;
+  background: #333333;
+  text-align: center;
+  line-height: 38px;
+  overflow: hidden;
+  font-size: 33px;
+}
+.header .login .loginleft {
+  float: left;
+  margin-left: 130px;
+  margin-right: 10px;
+}
+.header .login .loginleft li {
+  float: left;
+  margin: 0 10px;
+  text-align: center;
+}
+.header .login .loginleft li i {
+  border: 1px solid #5d5d5d;
+  margin-left: 10px;
+}
+.header .login .loginleft .left1 {
+  color: #08d7d7;
+  font-size: 32px;
+}
+.header .login .loginleft .left2 {
+  color: #c4c3c3;
+}
+.header .headerNav {
+  width: 100%;
+  height: 56px;
+  background: gold;
+}
+.header .headerSearch {
+  width: 100%;
+  height: 132px;
+  background: chartreuse;
+}
+.min {
+  width: 1200px;
+  margin: auto;
+}
+.min .banner {
+  width: 1200px;
+  background: black;
+  height: 346px;
+}
+.min .banner .minLeft {
+  width: 321px;
+  height: 385px;
+  float: left;
+  background: cornflowerblue;
+}
+.min .banner .minRight {
+  width: 840px;
+  height: 346px;
+  background: red;
+  float: left;
+}
+.min .hotNew {
+  width: 1200px;
+  height: 53px;
+  background: coral;
+}
+.min .minTop {
+  width: 1200px;
+  height: 648px;
+  background: chocolate ;
+}
+.min .company {
+  width: 1200px;
+  background: darkseagreen;
+  height: 53px;
+}
+.min .minBottom {
+  width: 1200px;
+  height: 572px;
+  background: deeppink;
+}
+.min .frined {
+  width: 1200px;
+  height: 198px;
+  background: beige;
+}
+.footer {
+  width: 100%;
+  height: 354px;
+  background: lawngreen;
+}
